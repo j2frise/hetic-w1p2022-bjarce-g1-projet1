@@ -1,0 +1,85 @@
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 70;
+    color: rgba(0,0,0,0.8)
+}
+
+.container {
+    width: 86%;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+}
+
+div.top-menu-header {
+    height: 45px;
+    background-color: rgba(0,0,0,0.09);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.info {
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.info i {
+    font-size: 20px;
+}
+
+.one {
+    width: 15%;
+}
+
+.two {
+    width: 40%;
+}
+
+.three {
+    width: 25%;
+}
+
+.four {
+    width: 15%;
+}
+.four a{
+    color: gray;
+    word-spacing: 10px;
+}
+.four a i {
+    font-size: 15px;
+}
+.four a:hover{
+    color: #554e9f;
+}
+
+.one i, .two i, .three i {
+    color : #554e9f;
+} 
+
+header nav {
+    height: 150px;
+    border: 1px solid red;
+}
