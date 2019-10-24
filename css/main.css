@@ -247,6 +247,13 @@ h1 span {
     border: 2px solid black;
 }
 
+h2 span {
+    display: block;
+    margin-top:10px;
+    width: 130px;
+    border: 2px solid #168B37;
+}
+
 #why .why {
     width: 33%;
     height: 250px;
@@ -280,7 +287,7 @@ h1 span {
 }
 
 #programs {
-    background-color: #00FF97 !important;
+    background-color: #00FF97;
     height: 630px;
     padding-top: 70px;
 }
@@ -648,4 +655,37 @@ h2.green {
 
 .teach ul {
     padding: 8px;
+}
+
+.list p {
+    font-size: 21px;
+}
+
+#list-programs {
+    padding-bottom: 70px;
+}
+
+section#programs.pp {
+    background-color: white;
+}
+
+div.list {
+    display: inline-block;
+    height: 200px;
+    width: 30%;
+    margin: 25px 15px 15px 15px;
+
+}
+
+.list ul li {
+    padding-bottom: 5px;
+}
+
+.list p {
+    color: #168B37;
+}
+
+.list img {
+    width: 100%;
+    height: 100%;
 }
