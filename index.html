@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Début de ma page -->
-    <header>
+    <header class="">
         <div class="top-menu-header">
             <div class="container">
                 <div class="info one">
@@ -20,11 +20,11 @@
                     +33 7 52 92 19 42
                 </div>
                 <div class="info two">
-                    <i class="fa fa-phone"></i> &nbsp
+                    <i class="fa fa-map-marker"></i> &nbsp
                     3 allée des maronners, 77420 Champs-sur-Marne - France
                 </div>
                 <div class="info three text-center">
-                    <i class="fa fa-map-marker"></i>&nbsp 
+                    <i class="fa fa-clock-o"></i>&nbsp 
                     Du lundi au samedi : 09h - 16h
                 </div>
                 <div class="info four text-center">
@@ -37,7 +37,19 @@
 
                 <!-- Mon menu -->
                 <nav>
-
+                    <div class="logo">
+                        <img src="https://www.hetic.net/sites/all/themes/hetic_v7/img/svg/logo_hetic.svg" id="logo-top" />
+                    </div>
+                    <div class="menu">
+                        <ul class="menu text-center">
+                            <li><a href="index.html" class="sub">Accueil</a></li>
+                            <li><a href="pages/about.html" class="sub">A propos</a></li>
+                            <li><a href="pages/programs.html" class="sub">Programmes</a></li>
+                            <li><a href="pages/gallery.html" class="sub">Galerie</a></li>
+                            <li><a href="pages/contact.html" class="sub">Contacter</a></li>
+                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -45,13 +57,152 @@
     </header>
 
     <!-- Le corps de ma page -->
+    <div class="clearfix"></div>
     <main>
+        <section class="bg-image">
+            <img src="img/bg.jpg" />
+            <div class="message">
+                <h1>Le cadre idéal</h1>
+                <p>
+                    Les formations d’HETIC sont conçues pour vous inciter à <strong>vous développer personnellement</strong> et <strong>professionnellement.</strong><br/>
+                    Les étudiants témoignent face caméra et font part de leur avis un mois après leur rentrée.
+                    <a href="#" class="button">Voir plus</a>
+                </p>
+            </div>
+        </section>
 
+        <section id="welcome">
+            <div class="container">
+                <article>
+                    <h1>Le cadre idéal</h1>
+                    <p>
+                        Les formations d’HETIC sont conçues pour vous inciter à vous développer personnellement et professionnellement. Notre méthodologie d'apprentissage met l’accent sur le pourquoi autant que sur le comment et surtout le qui, en insistant sur la collaboration en équipe plutôt que sur l'effort individuel. Les étudiants témoignent face caméra et font part de leur avis un mois après leur rentrée.
+                        <br><br><br><a href="#" class="button">Voir plus</a>
+                    </p>
+                </article>
+
+                <article>
+                    <iframe width="100%" height="320" src="https://www.youtube.com/embed/dzyY-L0G5Go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </article>
+            </div>
+        </section>
+
+        <section id="why">
+            <div class="container">
+                <h1 class="text-center">Pourquoi nous ?<span></span></h1>
+                <article class="why">
+                    <div class="icon-why text-center">
+                        <i class="fa fa-user-plus"></i>
+                    </div>
+                    <div class="text-why">
+                        <h2>Enseignants qualifiés</h2>
+                        <p>Nous n'employons que des enseignants hautement qualifiés ayant plus de 5 ans d'expérience dans l'enseignement aux enfants.</p>
+                    </div>
+                </article>
+                <article class="why">
+                    <div class="icon-why text-center">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <div class="text-why">
+                        <h2>Intégrer des groupes</h2>
+                        <p>Les groupes où vous serez membres sont créés en fonction de vos intérêts de votre découverte.</p>
+                    </div>
+                </article>
+                <article class="why">
+                    <div class="icon-why text-center">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <div class="text-why">
+                        <h2>Programmes variés</h2>
+                        <p>Nous proposons divers programmes aux étudiants pour augmenter leur niveau de connaissances et leur préparer en entreprise.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="programs">
+            <div class="container text-center">
+                <h1>Nos programmes<span></span></h1>
+                <p>HETIC forme des experts en ingénierie numérique capables de gérer les impératifs opérationnels d’un projet d’envergure, de penser en entre/intrapreneurs et de participer à la transition digitale de la société en France et à l’international.</p>
+                <div class="bg1">
+                    <div class="programs">
+                        <h2>Bachelors</h2>
+                        <br><br><a href="#" class="button">Savoir plus</a>
+                    </div>
+                </div>
+                <div class="bg2">
+                    <div class="programs">
+                        <h2>Mastères</h2>
+                        <br><br><a href="#" class="button">Savoir plus</a>
+                    </div>
+                </div>
+                <div class="bg3">
+                    <div class="programs">
+                        <h2 class="small-programs">MBA</h2>
+                        <br><br><a href="#" class="button">Savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="join">
+            <div class="container text-center">
+                <h1>Qu'en pensez-vous ? <span></span></h1><br>
+                <p>Participez à nos sessions d'adminssion qui se tiennent en début octobre <a href="#">Je réserve ma place</a></p>
+            </div>
+            <div class="img-group">
+                <img src="img/img1.jpg" />
+                <img src="img/img2.jpg" />
+                <img src="img/img3.jpg" />
+                <img src="img/img4.jpg" />
+                <img src="img/img5.jpg" />
+            </div>
+        </section>
     </main>
 
     <!-- Mon pied de page -->
     <footer>
-
+        <div id="top">
+            <div class="container">
+                <div class="f-logo">
+                    <img src="img/logo-f.png" id="logo-top" />
+                </div>
+                <div class="f-newsletter">
+                    <h2>Newsletter</h2><br>
+                    <p>Suivez nos programmes à venir et les dernières nouvelles. Entrez votre adresse e-mail et inscrivez-vous à notre newsletter.</p>
+                    <div class="newsltter">
+                        <div class="before">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <form action="#" method="POST"></form>
+                            <div class="cnt-form">
+                                <input type="email" name="email" placeholder="Entrez votre E-mail ici"/>
+                            </div>
+                            <div class="after">
+                                <button type="submit">SOUSCRIRE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="f-adresse">
+                    <h2>Adresse et contact</h2><br>
+                    <ul>
+                        <li><i class="fa fa-phone"></i> &nbsp +33 7 52 92 19 42</li>
+                        <li> <i class="fa fa-map-marker"></i> &nbsp 3 allée des maronners, 77420 Champs-sur-Marne</li>
+                        <li><i class="fa fa-clock-o"></i>&nbsp Du lundi au samedi : 09h - 16h</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <div class="container">
+                <div class="copy"><a href="#">Jarce L. V. BOUKORO</a> &copy; 2019</div>
+                <div class="link">
+                    <a href="#">Politique de confidentialité</a> | 
+                    <a href="#">Condition d'utilisation</a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
