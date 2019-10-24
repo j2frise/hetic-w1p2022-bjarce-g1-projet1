@@ -210,18 +210,18 @@ strong {
     padding-top: 80px;
 }
 
-#welcome article {
+#welcome article, .gallery article {
     width: 49%;
     min-height: 100px;
 }
 
-#welcome article:first-child {
+#welcome article:first-child, .gallery article:first-child {
     float: left;
     width: 40%;
     margin-top: 35px;
 }
 
-#welcome article:last-child {
+#welcome article:last-child, .gallery article:last-child {
     float: right;
 }
 
@@ -605,4 +605,47 @@ section.gallery {
 
 section.gallery h2 {
     margin-bottom: 30px;
+}
+
+/* About */
+p.sz {
+    font-size: 19px;
+    padding-bottom: 24px;
+}
+
+img.resp {
+    width: 100%;
+    height: auto;
+}
+
+.gallery article:last-child {
+    margin-top: -330px;
+}
+
+#join .group-teach {
+    padding-bottom: 80px;
+    padding-top: 70px;
+}
+
+#join .group-teach .teach {
+    width:22%;
+    margin:10px;
+    border:1px solid #00FF97;
+    height: 380px;
+    display: inline-block;
+}
+
+#join .group-teach .teach img {
+    display: block;
+    width: 100%;
+    height: 240px;
+}
+
+h2.green {
+    color: #168B37;
+    padding: 8px;
+}
+
+.teach ul {
+    padding: 8px;
 }
